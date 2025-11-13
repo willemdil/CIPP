@@ -32,7 +32,7 @@ jobs:
         run: npm run build
 
       # ⭐ Deploy to Azure Static Web Apps
-            - name: Build And Deploy
+      - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
